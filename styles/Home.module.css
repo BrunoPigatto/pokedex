@@ -1,0 +1,30 @@
+.title_container{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.title{
+    color: #E33D33;
+    text-align: center;
+    font-size: 3em;
+    margin-right: 0.4em;
+}
+.title span{
+    color: #000000;
+}
+.pokemon_container{
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: center;
+    -webkit-justify-content: center;
+    max-width: 1250px;
+    margin: 2em auto 0;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    column-gap: 32px;
+}
