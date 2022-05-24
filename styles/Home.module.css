@@ -28,3 +28,24 @@
     grid-template-columns: 23% 23% 23% 23%;
     column-gap: 32px;
 }
+
+@media(max-width: 1280px){
+    .pokemon_container{
+        grid-template-columns: 28% 28% 28%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media(max-width: 992px){
+    .pokemon_container{
+        grid-template-columns: 48% 48%;
+    }
+}
+
+@media(max-width: 500px){
+    .pokemon_container{
+        grid-template-columns: 100%;
+        column-gap: 0;
+    }
+}
